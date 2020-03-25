@@ -1,5 +1,5 @@
             function load() {
-                fetch('http://amartuchi-springboot.jelastic.saveincloud.net/hello?name=Arthur')
+                fetch('https://amartuchi-springboot.jelastic.saveincloud.net/hello?name=Arthur')
                         .then(
                                 function (response) {
                                     if (response.status !== 200) {
